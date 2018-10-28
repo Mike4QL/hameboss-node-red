@@ -2,7 +2,10 @@
     "name": "hameboss-node-red",
     "description": "Home Automation based on Node-Red",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-cloudantplus-selector": "0.1.4",
+        "node-red-dashboard": "2.9.8"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
